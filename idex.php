@@ -3,7 +3,7 @@ function range( $start, $end, $increment ) {
   if ( $increment == undefined )
     $increment = 1;
   $numLoops = Math.abs( ($end - $start)/ $increment ) + 1 ;
-  for ( $i = 0; $i < numLoops; $i ++ ) {
+  for ( $i = 0; $i < $numLoops; $i ++ ) {
 	$result.push( $start );
     $start += $increment;
   }
